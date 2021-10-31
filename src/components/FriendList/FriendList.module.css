@@ -1,0 +1,39 @@
+.friendList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  display: flex;
+  padding: 10px;
+}
+
+.online {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.ofline {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.name {
+  font-size: medium;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.avatar {
+  display: block;
+}

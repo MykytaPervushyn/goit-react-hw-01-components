@@ -1,0 +1,48 @@
+.profile {
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  padding-top: 20px;
+}
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+}
+
+.name,
+.tag,
+.location {
+  text-align: center;
+  font-weight: 800;
+}
+
+.name {
+  font-size: x-large;
+}
+
+.tag {
+  font-weight: 600;
+}
+
+.location {
+  font-weight: 600;
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quantity {
+  font-weight: 800;
+}
